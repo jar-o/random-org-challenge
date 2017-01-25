@@ -15,7 +15,6 @@ ctx.verify_mode = ssl.CERT_NONE
 # mini random.org library, fetches a random set of strings, each 20 characters
 # wide. defaults to pretty close to 2048 bytes of data, but you can change that
 # when calling getrand().
-
 class random_org(object):
     def __init__(self):
         #self.url = 'http://localhost:3000/strings.txt' # for when you are quota'd by random.org
